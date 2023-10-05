@@ -1,7 +1,7 @@
 import ButtonSection from "../Button/ButtonSection";
 import HeaderSection from "../HeaderSection/HeaderSection";
 import styled from "styled-components";
-// Paurush
+// Paurush Committed
 const About = () => {
   return (
     <>
