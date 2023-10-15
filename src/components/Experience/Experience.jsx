@@ -7,7 +7,7 @@ const Experience = () => {
     <Container>
       <HeaderSection header={"Experience"}></HeaderSection>
       <Row className="mb-5">
-        <Col xs={4}>
+        <Col md={4}>
           <ExperienceSection className="p-2">
             <div className="img-section text-center">
               <img src="Html.png" />
@@ -20,7 +20,7 @@ const Experience = () => {
             </p>
           </ExperienceSection>
         </Col>
-        <Col xs={4}>
+        <Col md={4}>
           <ExperienceSection className="p-2">
             <div className="img-section text-center">
               <img src="Html.png" />
@@ -33,7 +33,7 @@ const Experience = () => {
             </p>
           </ExperienceSection>
         </Col>
-        <Col xs={4}>
+        <Col md={4}>
           <ExperienceSection className="p-2">
             <div className="img-section text-center">
               <img src="Html.png" />
