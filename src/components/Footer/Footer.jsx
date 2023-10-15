@@ -9,30 +9,29 @@ const Footer = () => {
 
       <Row>
         <Col>
-          <Logo className="icons-section">
-            <a className="socials">
-              <img src="gmail.png" />
+          <Logo classnameName="icons-section">
+            <a classname="socials" href="https://www.gmail.com">
+              <img src="gmail.png" alt="" />
             </a>
-            <a className="socials">
-              <img src="phone.png" />
+            <a classnameName="socials" href="tel:7023933047">
+              <img src="phone.png" alt="" />
             </a>
-            <a className="socials">
-              <img src="linkdin.png" />
+            <a classname="socials" href="https://www.gmail.com">
+              <img src="linkdin.png" alt="" />
             </a>
-            <a className="socials">
-              <img src="instagram.png" />
+            <a classname="socials" href="https://www.gmail.com">
+              <img src="instagram.png" alt="" />
             </a>
-            <a className="socials">
-              <img src="facebook.png" />
+            <a classname="socials" href="https://www.gmail.com">
+              <img src="facebook.png" alt="" />
             </a>
-
-            <a className="socials">
-              <img src="twitter.png" />
+            <a classname="socials" href="https://www.gmail.com">
+              <img src="twitter.png" alt="" />
             </a>
           </Logo>
         </Col>
       </Row>
-      <Row className="mt-5 mb-3">
+      <Row classnameName="mt-5 mb-3">
         <Col>
           <FooterLabel>
             <p>Copyright © Paurush Artwani</p>

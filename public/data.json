@@ -1,0 +1,39 @@
+{
+    "id": 590,
+    "uid": "e40de411-b2a4-42b9-9cc2-5bc7448bb625",
+    "password": "qlmN3FCWDn",
+    "first_name": "Elina",
+    "last_name": "Schulist",
+    "username": "elina.schulist",
+    "email": "elina.schulist@email.com",
+    "avatar": "https://robohash.org/omnisdoloremdebitis.png?size=300x300&set=set1",
+    "gender": "Agender",
+    "phone_number": "+507 (540) 546-8009",
+    "social_insurance_number": "107545162",
+    "date_of_birth": "1998-08-24",
+    "employment": {
+      "title": "National Administration Agent",
+      "key_skill": "Technical savvy"
+    },
+    "address": {
+      "city": "West Sheraburgh",
+      "street_name": "Kendrick Divide",
+      "street_address": "185 Silas Ridge",
+      "zip_code": "82473",
+      "state": "Oklahoma",
+      "country": "United States",
+      "coordinates": {
+        "lat": 36.06768588487867,
+        "lng": -22.083871992989828
+      }
+    },
+    "credit_card": {
+      "cc_number": "4531756165510"
+    },
+    "subscription": {
+      "plan": "Starter",
+      "status": "Active",
+      "payment_method": "Credit card",
+      "term": "Annual"
+    }
+}
