@@ -4,6 +4,7 @@ import Technology from "./Technology/Technology";
 import styled from "styled-components";
 import Education from "./Education/Education";
 import Experience from "./Experience/Experience";
+import Footer from "./Footer/Footer";
 
 const MainContainer = () => {
   return (
@@ -23,13 +24,17 @@ const MainContainer = () => {
         <div className="experience-section">
           <Experience></Experience>
         </div>
+        <div className="footer">
+          <Footer></Footer>
+        </div>
       </MainContainerSection>
     </>
   );
 };
 const MainContainerSection = styled.section`
   .about-section,
-  .Education-section {
+  .Education-section,
+  .footer {
     background-color: #311e25;
   }
   .technology-section,

@@ -17,7 +17,6 @@ const CustomButton = styled.button`
   transition: background 0.7s ease-in-out;
   &:hover {
     background: #db9a64;
-    ${"" /* transition-delay: 0.1s; */}
     color: white;
   }
 `;
