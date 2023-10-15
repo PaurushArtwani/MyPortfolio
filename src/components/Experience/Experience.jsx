@@ -1,10 +1,29 @@
 import { Container, Row, Col } from "react-bootstrap";
 import HeaderSection from "../HeaderSection/HeaderSection";
 import styled from "styled-components";
+import { useEffect, useState } from "react";
 
 const Experience = () => {
-  return (
-    <Container>
+  const [data, setData] = useState([]);
+
+  debugger;
+  const fetchData = () => {
+    fetch("data.json")
+      .then((response) => {
+        return response.json();
+      })
+      .then((result) => {
+        // console.log(result, "Paurush");
+        setData(result);
+      });
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+  console.log(data.id, "Paurush");
+  return {
+    /* <Container>
       <HeaderSection header={"Experience"}></HeaderSection>
       <Row className="mb-5">
         <Col md={4}>
@@ -12,18 +31,12 @@ const Experience = () => {
             <div className="img-section text-center">
               <img src="Html.png" />
             </div>
-            <h3>MCA</h3>
-            <p>
-              Vellore Institute of Technology, Chennai Campus
-              <br />
-              (2020-2022)
-            </p>
           </ExperienceSection>
         </Col>
         <Col md={4}>
           <ExperienceSection className="p-2">
             <div className="img-section text-center">
-              <img src="Html.png" />
+              <img src="Html.png" alt="" />
             </div>
             <h3>MCA</h3>
             <p>
@@ -36,7 +49,7 @@ const Experience = () => {
         <Col md={4}>
           <ExperienceSection className="p-2">
             <div className="img-section text-center">
-              <img src="Html.png" />
+              <img src="Html.png" alt="" />
             </div>
             <h3>MCA</h3>
             <p>
@@ -47,8 +60,8 @@ const Experience = () => {
           </ExperienceSection>
         </Col>
       </Row>
-    </Container>
-  );
+    </Container> */
+  };
 };
 const ExperienceSection = styled.div`
   border: 1px solid #e3a068;
